@@ -10,3 +10,7 @@ nav {
     color: white;
     font-size: 20px;
 }
+#weatherBox span:first-child {
+    display: flex;
+    align-items: center;
+}
