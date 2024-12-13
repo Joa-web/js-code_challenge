@@ -5,4 +5,4 @@ const img = ['00.jpeg', '01.jpeg', '02.jpeg', '03.jpg', '04.jpeg', '05.jpg', '06
 const randomImg = img[parseInt(Math.random() * img.length)]
 document.body.style.background = `url(img/${randomImg}) no-repeat`
 document.body.style.backgroundSize = 'cover'
-console.log(window.screen)
+

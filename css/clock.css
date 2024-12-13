@@ -4,5 +4,6 @@
     align-items: center;
 }
 #clock {
-    font-size: 100px
+    font-size: 120px;
+    color: white;
 }
