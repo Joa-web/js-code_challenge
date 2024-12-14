@@ -3,7 +3,7 @@
 @import 'css/user.css';
 @import 'css/todo.css';
 @import 'css/quotes.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 body {
@@ -12,4 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}
+body * {
+    font-family: "Open Sans", serif;
 }

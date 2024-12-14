@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 25px;
+    font-weight: bold;
 }
 
 #todoText {
@@ -26,7 +27,8 @@
 #todoList {
     color: white;
     list-style: none;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
 }
 .check {
     text-decoration: line-through;
