@@ -1,0 +1,10 @@
+#quotesBox {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 10px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -15,7 +15,11 @@
                 <span>장소</span>
             </div>
             <div id="todoBox">
-                <ul>To Do</ul>
+                <form id="todoForm">
+                    <label for="todoText">Today Goal</label>
+                    <input id="todoText" type="text" placeholder="Write your goal">
+                </form>
+                <ul id="todoList"></ul>
             </div>
         </nav>
     </header>
@@ -27,15 +31,17 @@
             <label for="userText">What's your name?</label>
             <input id="userText" type="text">
         </form>
-        <div id="qutoe">
+        <div id="quotesBox">
             <span>조언</span>
-            <span>조언</span>
+            <span class="disappear">조언</span>
         </div>
     </main>
     <script src="js/clock.js"></script>
     <script src="js/bg.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/user.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
     <script src="https://kit.fontawesome.com/02e4b06e97.js" crossorigin="anonymous"></script>
 </body>
 </html>
