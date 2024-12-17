@@ -21,7 +21,7 @@ function welcomeUser(name, text) {
         quotesBox.style.width = '530px';
     } else if (userHours >= 18 && userHours < 23) {
         text.innerText = `Good evening, ${name}`;
-        quotesBox.style.width = '450px';
+        quotesBox.style.width = '520px';
     } else if (userHours >= 23 && userHours <6) {
         text.innerText `Good night, ${name}`;
     }
